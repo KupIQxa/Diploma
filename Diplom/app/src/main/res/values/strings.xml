@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Родительский смс-контроль</string>
+    <string name="title_home">Главная страница</string>
+    <string name="title_chats">Чаты</string>
+    <string name="title_statistics">Статистика</string>
+    <string name="title_user">Пользователь</string>
+
+    <string name="email_hint">Введите ваш email</string>
+    <string name="password_hint">Введите свой пароль</string>
+    <string name="login_button_label">Войти</string>
+    <string name="register_text">Для регистрации нажмите сюда</string>
+
+    <string name="fullname_reg">Введите ваше имя</string>
+    <string name="email_reg">Введите ваш email</string>
+    <string name="password_reg">Придумайте свой пароль</string>
+    <string name="reg_button_label">Зарегистрироваться</string>
+    <string name="auth_text">Если вы уже зарегистрированы, то нажмите сюда</string>
+
+    <string name="title_set">Настройки</string>
+    <string name="set_button_text">Сохранить изменения</string>
+    <string name="cancel_button_text">Отменить изменения</string>
+
+    <string name="chat_title">Чат</string>
+    <string name="sender_name">Имя отправителя</string>
+    <string name="set_button_blocking">Заблокировать отправителя</string>
+    <string name="set_button_dontBlocking">Разблокировать отправителя</string>
+    <string name="status">Статус отправителя:</string>
+
+</resources>

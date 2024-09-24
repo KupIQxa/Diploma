@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Разрешения">
+        <Preference
+            android:key="read_sms_permission"
+            android:title="Разрешение на чтение SMS"
+            android:summary="Запрос разрешения на чтение SMS" />
+
+        <Preference
+            android:key="post_notification_permission"
+            android:title="Разрешение на отправку уведомлений"
+            android:summary="Запрос разрешения на отправку уведомлений" />
+
+        <Preference
+            android:key="read_notification_permission"
+            android:title="Разрешение на чтение уведомлений"
+            android:summary="Запрос разрешения на чтение уведомлений" />
+
+        <Preference
+            android:key="contacts_permission"
+            android:title="Разрешение на чтение контактов"
+            android:summary="Запрос разрешения на чтение контактов" />
+
+        <Preference
+            android:key="files_permission"
+            android:title="Разрешение на доступ к файлам и медиаконтенту"
+            android:summary="Запрос разрешения на доступ к файлам и медиаконтенту" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Настройки">
+        <SwitchPreferenceCompat
+            android:key="delete_notifications"
+            android:title="Удалять уведомления"
+            android:summary="Включите для автоматического удаления уведомлений с злобными сообщениями" />
+
+        <SwitchPreferenceCompat
+            android:key="block_senders"
+            android:title="Блокировать отправителей"
+            android:summary="Включите для блокировки отправителей с злобными сообщениями" />
+
+        <SwitchPreferenceCompat
+            android:key="delete_data_on_timer"
+            android:title="Удалять данные по истечении таймера"
+            android:summary="Включите, чтобы удалять данные по истечении установленного таймера" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Для демонстрации">
+        <EditTextPreference
+            android:key="url_preference"
+            android:title="URL сервера"
+            android:summary="Введите URL сервера"
+            android:defaultValue="http://192.168.0.104:5000"
+            android:inputType="textUri" />
+
+        <Preference
+            android:key="delete_server_data"
+            android:title="Удалить данные с сервера"
+            android:summary="Нажмите, чтобы удалить данные о сообщениях с сервера" />
+
+        <Preference
+            android:key="send_demo_email"
+            android:title="Отправить письмо для демонстрации"
+            android:summary="Отправить письмо на почту со статистикой" />
+
+        <Preference
+            android:key="clear_blocked_senders"
+            android:title="Очистить список заблокированных отправителей"
+            android:summary="Нажмите для очищения всего списка заблокированных отправителей" />
+    </PreferenceCategory>
+</PreferenceScreen>
